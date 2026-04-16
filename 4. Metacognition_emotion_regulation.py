@@ -1,11 +1,9 @@
-# This model simulates a sandwich-making task while also monitoring, understanding and responding to emotion in parallel.
-# The architecture combines multiple subsystems: visual perception updates what the model sees
-# The amygdala evaluates whether the current situation is calm or fear-inducing based on spider visibility which is the sub-symbolic representation
+# This agent will enact Type-1 and Type-2 metacognitive monitoring of the emotion fear, and Type-2 metacognitive regulation of this emotion. 
+# This model simulates a simple task (i.e., sandwich-making). The agent will feel fear upon their visual system seeing a spider. 
+# The amygdala evaluates whether the current situation is calm or fear-inducing based on spider visibility which is the sub-symbolic representation/
 # The emotion system interprets that affective state into an understood emotion label which is the symbolic representation
-# There are 3 types of fear (see amygada.py file). If high fear is detected, the model immediately applies a breathing response by changing the breath state from out to in, which resets the emotional state back to calm. 
-# The procedural system carries out the sandwich-making steps and memory retrieval. 
-
-
+# This agent will then enact Type-1 and Type-2 metacognitive monitoring of the various fear states (calm, low, medium, high - see amydala.py). 
+# If the agent detects 'high fear', they will engage Type-2 metacognitive control by using a breathing technique to down-regulate emotion from 'high fear' to 'calm'.  
 
 # import modules
 from modules.visual_productions import VisualProductions
