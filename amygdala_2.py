@@ -1,5 +1,5 @@
 
-# Add this file Amygdala.py to Modules folder. 
+# Add this file amygdala_2.py to Modules folder. 
 # The amygdala subsystem models affective responses to the presence or absence of a spider.
 # When the spider is visible, one of three fear-level productions can fire—high fear, medium fear, or low fear
 # Each type of fear writes a different neural code into the emotional buffer.
